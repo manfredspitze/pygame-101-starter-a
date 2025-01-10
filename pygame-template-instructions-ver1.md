@@ -41,9 +41,9 @@
 6. **Build main game loop**:
    ```python
    running = True
-   # Listen for and handle events
    while running:
-       for event in pygame.event.get():
+
+       for event in pygame.event.get():     # Listen for and handle events
            if event.type == pygame.QUIT: # Write QUIT event in UPPERCASE!
                running = False
        
